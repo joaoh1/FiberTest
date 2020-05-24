@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fibertest",
+  "version": "${version}",
+  "name": "Fiber Test",
+  "description": "This is a BoringTemplate-based mod, if you are seeing this, this is either a showcase or extremely laziness, probably the second one.",
+  "authors": [
+    "joaoh1"
+  ],
+  "contact": {
+    "homepage": "https://github.com/joaoh1/FiberTest",
+    "sources": "https://github.com/joaoh1/FiberTest"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/fibertest/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.joaoh1.fibertest.FiberTestMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.8",
+    "fabric": ">=0.5.0",
+    "minecraft": ">1.15.2"
+  }
+}
